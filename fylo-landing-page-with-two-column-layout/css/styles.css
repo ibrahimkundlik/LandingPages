@@ -12,6 +12,9 @@ li {
 a {
 	text-decoration: none;
 }
+img {
+	width: 100%;
+}
 :root {
 	/* ### Primary */
 	--primary-blue: hsl(243, 87%, 12%);
@@ -39,7 +42,7 @@ h6 {
 }
 body {
 	color: var(--primary-blue);
-	background: var(--neutral-grayish-blue);
+	background: #fff;
 	overflow-x: hidden;
 }
 

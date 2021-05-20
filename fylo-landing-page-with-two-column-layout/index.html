@@ -16,69 +16,137 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
-		<h2>Fylo landing page with two column layout</h2>
-		<p>Fylo landing page with two column layout</p>
-		<!-- 
-  Features
-  Team
-  Sign In
+		<div class="wrapper">
+			<nav class="navbar">
+				<img src="./images/logo.svg" alt="Fylo Logo" />
+				<ul class="navbar-links">
+					<li class="navbar-link">Features</li>
+					<li class="navbar-link">Team</li>
+					<li class="navbar-link">Sign In</li>
+				</ul>
+			</nav>
 
-  All your files in one secure location, accessible anywhere.
+			<main class="main-content">
+				<section class="section-intro">
+					<div class="section-intro-img">
+						<img src="./images/illustration-1.svg" alt="illustration-1" />
+					</div>
+					<article class="section-intro-desc">
+						<h1 class="section-intro-head">
+							All your files in one secure location, accessible anywhere.
+						</h1>
+						<p class="section-intro-para">
+							Fylo stores your most important files in one secure location.
+							Access them wherever you need, share and collaborate with friends,
+							family, and co-workers.
+						</p>
+						<form class="section-intro-form">
+							<input type="email" name="email" />
+							<button>Get Started</button>
+							<p class="validation-mssg"></p>
+						</form>
+					</article>
+				</section>
+				<section class="section-info">
+					<div class="section-info-img">
+						<img src="./images/illustration-2.svg" alt="illustration-2" />
+					</div>
+					<article class="section-info-desc">
+						<h1 class="section-info-head">Stay productive, wherever you are</h1>
+						<p class="section-info-para">
+							Never let location be an issue when accessing your files. Fylo has
+							you covered for all of your file storage needs.
+						</p>
+						<p class="section-info-para">
+							Securely share files and folders with friends, family and
+							colleagues for live collaboration. No email attachments required!
+						</p>
+						<a href="#" class="section-info-link"
+							>See how Fylo works
+							<img src="./images/icon-arrow.svg" alt="icon-arrow"
+						/></a>
+						<div class="section-info-review">
+							<img src="./images/icon-quotes.svg" alt="icon-quotes" />
+							<p class="review-text">
+								Fylo has improved our team productivity by an order of
+								magnitude. Since making the switch our team has become a
+								well-oiled collaboration machine.
+							</p>
+							<img
+								src="./images/avatar-testimonial.jpg"
+								alt="Kyle Burton"
+								class="profile-img"
+							/>
+							<h5 class="profile-name">Kyle Burton</h5>
+							<h6 class="profile-post">Founder & CEO, Huddle</h6>
+						</div>
+					</article>
+				</section>
+				<section class="section-access">
+					<h1 class="section-access-head">Get early access today</h1>
+					<p class="section-access-para">
+						It only takes a minute to sign up and our free starter tier is
+						extremely generous. If you have any questions, our support team
+						would be happy to help you.
+					</p>
+					<form class="section-access-form">
+						<input type="email" name="email" />
+						<button>Get Started For Free</button>
+						<p class="validation-mssg"></p>
+					</form>
+				</section>
+			</main>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy 
--->
+			<footer>
+				<div class="footer-logo">
+					<img src="./images/logo.svg" alt="Fylo Logo" />
+				</div>
+				<ul class="footer-contacts">
+					<li class="footer-contact">
+						<img src="./images/icon-phone.svg" alt="icon-phone" />
+						<p>Phone: +1-543-123-4567</p>
+					</li>
+					<li class="footer-contact">
+						<img src="./images/icon-email.svg" alt="icon-email" />
+						<p>example@fylo.com</p>
+					</li>
+				</ul>
+				<ul class="footer-page-links1">
+					<li class="page-link">About Us</li>
+					<li class="page-link">Jobs</li>
+					<li class="page-link">Press</li>
+					<li class="page-link">Blog</li>
+				</ul>
+				<ul class="footer-page-links2">
+					<li class="page-link">Contact Us</li>
+					<li class="page-link">Terms</li>
+					<li class="page-link">Privacy</li>
+				</ul>
+				<ul class="footer-social-links">
+					<li>
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</li>
+					<li>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</li>
+					<li>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</li>
+				</ul>
+				<p class="footer-attribution">
+					Challenge by
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+						>Frontend Mentor</a
+					>. Coded by <a href="#">ibrahimkundlik</a>.
+				</p>
+			</footer>
+		</div>
 		<script src="./js/script.js"></script>
 	</body>
 </html>
-
-<!-- 
-<footer>
-  <p class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      >Frontend Mentor</a
-    >. Coded by <a href="#">Your Name Here</a>.
-  </p>
-</footer> 
--->
