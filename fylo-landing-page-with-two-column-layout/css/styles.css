@@ -28,7 +28,7 @@ img {
 }
 html {
 	font-family: "Open Sans", sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 }
 nav,
 button,
@@ -46,4 +46,40 @@ body {
 	overflow-x: hidden;
 }
 
-/* MAIN CSS */
+/* MAIN CSS - navbar */
+.wrapper {
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.navbar {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1.5rem 0 5rem 0;
+}
+
+.logo-cont {
+	width: 80px;
+}
+
+.navbar-links {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	font-size: 0.85rem;
+}
+
+.navbar-link {
+	margin-left: 2rem;
+	cursor: pointer;
+}
+
+article > h1 {
+	font-size: 1.65rem;
+}
+
+.section-intro-desc {
+	text-align: center;
+}
