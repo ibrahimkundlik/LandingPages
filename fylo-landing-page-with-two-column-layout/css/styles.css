@@ -1,0 +1,46 @@
+/* CSS DEFAULTS */
+*,
+::after,
+::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+:root {
+	/* ### Primary */
+	--primary-blue: hsl(243, 87%, 12%);
+	--primary-light-blue: hsl(238, 22%, 44%);
+	/* ### Accent */
+	--accent-blue: hsl(224, 93%, 58%);
+	--accent-cyan: hsl(170, 45%, 43%);
+	/* ### Neutral */
+	--neutral-grayish-blue: hsl(240, 75%, 98%);
+	--neutral-gray: hsl(0, 0%, 75%);
+}
+html {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+nav,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+}
+body {
+	color: var(--primary-blue);
+	background: var(--neutral-grayish-blue);
+	overflow-x: hidden;
+}
+
+/* MAIN CSS */
